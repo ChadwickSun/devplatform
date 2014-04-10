@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/hwxm/!svn/ver/820/devplatform/src/branches/20140409/devplatform/src/main/webapp/WEB-INF
+END
+mvc-dispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/hwxm/!svn/ver/820/devplatform/src/branches/20140409/devplatform/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hwxm/!svn/ver/820/devplatform/src/branches/20140409/devplatform/src/main/webapp/WEB-INF/web.xml
+END

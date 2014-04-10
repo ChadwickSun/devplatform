@@ -1,0 +1,21 @@
+log4j.rootLogger=INFO,console,file
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%-5p %d [%F,%L] - %m%n
+
+log4j.appender.file=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.file.layout=org.apache.log4j.PatternLayout
+log4j.appender.file.datePattern='.'yyyyMMdd
+log4j.appender.file.append=true
+log4j.appender.file.layout.ConversionPattern=%-5p %d [%F,%L] - %m%n
+log4j.appender.file.File=${CATALINA_HOME}/logs/cms.log
+
+
+log4j.logger.test=DEBUG, test
+log4j.additivity.test=false
+log4j.appender.test=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.test.layout=org.apache.log4j.PatternLayout
+log4j.appender.test.layout.ConversionPattern=%-5p %d [%F,%L] - %m%n
+log4j.appender.test.file=../logs/message.log
+log4j.appender.test.DatePattern='.'yyyyMMdd
+
